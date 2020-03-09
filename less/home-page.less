@@ -4,20 +4,24 @@
 .main-header {
   text-align: center;
   .pad(1.5%);
-  h1{
+
+  h1 {
     font-size: 4rem;
     .pad(1%);
   }
+
   nav {
     .pad(1%);
+
     a {
       color: black;
       text-decoration: none;
       font-size: 1.2rem;
       .pad(18px)
-      }
     }
   }
+}
+
 //----------------------------------->
 
 .home {
@@ -28,13 +32,17 @@
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
+
     // Added by Hoolio ---
-    img {               //
-      max-width: 100%;  //
-    }                   //
-   //---------------------
+    img {
+      //
+      max-width: 100%; //
+    }
+
+    //
+    //---------------------
   }
 
   .space-images {
@@ -79,15 +87,26 @@
       p {
         margin-bottom: 26px;
       }
-      
-      .btn {
+      a {
+        .link(black, white);
+        padding: 6px 15px 6px 15px;
+        font-size: 1.4rem;
+        border-radius: 6px;
+        text-decoration: none;
+      }
+        a:hover {
+          .link(white, black);
+          font-size: 1.4rem;
+          padding: 6px 15px 6px 15px;
+          border-radius: 6px;
+        }
       }
     }
 
     .walk-img {
       .wid(46%);
       margin-left: 4%;
-      
+
       img {
         width: 100%;
         height: auto;
@@ -95,4 +114,6 @@
       }
     }
   }
-}// home
+
+
+// home
